@@ -1,0 +1,66 @@
+{
+  "screen": "DETAILS",
+  "offer": {
+    "id": "tour_2001",
+    "type": "TOUR",
+    "title": "Bangkok Night Street Food Tour (Last-minute)",
+    "instantConfirm": true,
+    "media": {
+      "hero": {
+        "photos": [
+          "https://picsum.photos/seed/hopaway-tour1a/1080/720",
+          "https://picsum.photos/seed/hopaway-tour1b/1080/720",
+          "https://picsum.photos/seed/hopaway-tour1c/1080/720"
+        ]
+      }
+    },
+    "summary": {
+      "durationMinutes": 180,
+      "rating": { "value": 4.7, "count": 1280, "source": "web" },
+      "nextDeparture": "2026-02-04T19:30:00+07:00",
+      "distanceKm": 2.1
+    },
+    "pricing": {
+      "currency": "THB",
+      "oldPrice": 1590,
+      "price": 1190,
+      "discountBreakdown": {
+        "label": "Last-minute deal",
+        "amountSaved": 400
+      }
+    },
+    "sections": [
+      {
+        "key": "about",
+        "title": "About this tour",
+        "body": "A guided evening walk through iconic street food areas. Taste local favorites and learn what to order like a pro."
+      },
+      {
+        "key": "bring",
+        "title": "What to bring",
+        "items": ["Comfortable shoes", "Cash for extras", "Light jacket (optional)"]
+      },
+      {
+        "key": "reviews",
+        "title": "Reviews",
+        "externalBadges": [
+          { "name": "Top Rated", "source": "Web rating", "icon": "badge_star" },
+          { "name": "Verified reviews", "source": "Web", "icon": "badge_check" }
+        ]
+      },
+      {
+        "key": "location",
+        "title": "Location",
+        "mapSnippet": {
+          "geo": { "lat": 13.7384, "lng": 100.5288 },
+          "label": "Meeting point: BTS Saphan Taksin Exit 2"
+        }
+      }
+    ],
+    "footerActions": {
+      "stickyPrimary": { "label": "Book", "action": "OPEN_BOOKING", "targetId": "tour_2001" },
+      "secondary": { "label": "Share", "action": "SHARE_OFFER", "targetId": "tour_2001" }
+    }
+  }
+}
+

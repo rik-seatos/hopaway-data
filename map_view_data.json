@@ -1,0 +1,60 @@
+{
+  "screen": "OFFERS_MAP",
+  "map": {
+    "initialRegion": {
+      "center": { "lat": 13.7466, "lng": 100.5393 },
+      "zoom": 13
+    },
+    "clustering": { "enabled": true, "clusterRadiusPx": 60 }
+  },
+  "pins": [
+    {
+      "id": "pin_tour_2001",
+      "offerId": "tour_2001",
+      "type": "TOUR",
+      "geo": { "lat": 13.7384, "lng": 100.5288 },
+      "price": 1190,
+      "currency": "THB"
+    },
+    {
+      "id": "pin_tour_2002",
+      "offerId": "tour_2002",
+      "type": "TOUR",
+      "geo": { "lat": 13.7562, "lng": 100.5018 },
+      "price": 1990,
+      "currency": "THB"
+    },
+    {
+      "id": "pin_tr_3002",
+      "offerId": "tr_3002",
+      "type": "TRANSFER",
+      "geo": { "lat": 13.6900, "lng": 100.7501 },
+      "price": 890,
+      "currency": "THB"
+    }
+  ],
+  "bottomSheet": {
+    "collapsedPeekItems": 2,
+    "interaction": {
+      "tapPinShowsPreview": true,
+      "swipeUpShowsDetails": true
+    },
+    "visibleOfferMiniCards": [
+      {
+        "offerId": "tour_2001",
+        "title": "Bangkok Night Street Food Tour",
+        "subtitle": "3h \u00b7 4.7\u2605 \u00b7 2.1 km",
+        "price": 1190,
+        "currency": "THB"
+      },
+      {
+        "offerId": "tr_3002",
+        "title": "BKK \u2192 Sukhumvit",
+        "subtitle": "Van \u00b7 ~55 min",
+        "price": 890,
+        "currency": "THB"
+      }
+    ]
+  }
+}
+

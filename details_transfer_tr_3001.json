@@ -1,0 +1,35 @@
+{
+  "screen": "DETAILS",
+  "offer": {
+    "id": "tr_3001",
+    "type": "TRANSFER",
+    "routeTitle": "Bangkok \u2192 Pattaya",
+    "instantConfirm": true,
+    "route": {
+      "from": "Bangkok",
+      "to": "Pattaya"
+    },
+    "vehicle": {
+      "type": "Sedan",
+      "amenities": [
+        { "key": "ac", "label": "A/C", "icon": "snowflake" },
+        { "key": "bags", "label": "2 bags", "icon": "luggage" },
+        { "key": "wifi", "label": "Wi-Fi", "icon": "wifi" }
+      ]
+    },
+    "timeSlots": [
+      { "id": "slot_1", "time": "2026-02-04T16:00:00+07:00", "seatsLeft": 2 },
+      { "id": "slot_2", "time": "2026-02-04T18:30:00+07:00", "seatsLeft": 4 }
+    ],
+    "pickupDistanceKm": 1.2,
+    "pricing": {
+      "currency": "THB",
+      "oldPrice": 2300,
+      "price": 1790
+    },
+    "footerActions": {
+      "stickyPrimary": { "label": "Book", "action": "OPEN_BOOKING", "targetId": "tr_3001" }
+    }
+  }
+}
+

@@ -1,0 +1,27 @@
+{
+  "screen": "CONFIRMATION",
+  "status": "CONFIRMED",
+  "booking": {
+    "bookingId": "bk_90001",
+    "offerId": "tour_2001",
+    "title": "Bangkok Night Street Food Tour (Last-minute)",
+    "dateTime": "2026-02-04T19:30:00+07:00"
+  },
+  "pickup": {
+    "time": "19:20",
+    "place": "BTS Saphan Taksin Exit 2",
+    "geo": { "lat": 13.7187, "lng": 100.5146 },
+    "openInMapsAction": { "label": "Open in Maps", "action": "OPEN_MAPS" }
+  },
+  "support": {
+    "whatsapp": { "label": "WhatsApp", "action": "OPEN_WHATSAPP", "phone": "+66 89 000 0000" }
+  },
+  "ticket": {
+    "download": { "label": "Download ticket", "action": "DOWNLOAD_TICKET" },
+    "email": { "label": "Email ticket", "action": "EMAIL_TICKET" }
+  },
+  "actions": [
+    { "label": "Back to offers", "action": "BACK_TO_OFFERS" }
+  ]
+}
+

@@ -1,0 +1,28 @@
+{
+  "queryExamples": [
+    "CentralWorld",
+    "Sukhumvit",
+    "Bangkok airport"
+  ],
+  "results": [
+    {
+      "placeId": "place_centralworld",
+      "primaryText": "CentralWorld",
+      "secondaryText": "Pathum Wan, Bangkok, Thailand",
+      "geo": { "lat": 13.7466, "lng": 100.5393 }
+    },
+    {
+      "placeId": "place_sukhumvit_38",
+      "primaryText": "Sukhumvit 38",
+      "secondaryText": "Phra Khanong, Bangkok, Thailand",
+      "geo": { "lat": 13.7246, "lng": 100.5872 }
+    },
+    {
+      "placeId": "place_bkk_airport",
+      "primaryText": "Suvarnabhumi Airport (BKK)",
+      "secondaryText": "Samut Prakan, Thailand",
+      "geo": { "lat": 13.6900, "lng": 100.7501 }
+    }
+  ]
+}
+

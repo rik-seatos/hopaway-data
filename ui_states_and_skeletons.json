@@ -1,0 +1,36 @@
+{
+  "banners": {
+    "locationDenied": {
+      "type": "warning",
+      "title": "Location access is off.",
+      "message": "Use an address instead."
+    },
+    "permissionExplainer": {
+      "type": "info",
+      "title": "Why we ask for location",
+      "message": "We use it only to show nearby last-minute offers. You can use an address anytime."
+    }
+  },
+  "loading": {
+    "offersListSkeleton": {
+      "type": "skeleton",
+      "items": 6,
+      "layout": "cardList"
+    },
+    "mapSkeleton": {
+      "type": "skeleton",
+      "layout": "fullScreenMap"
+    }
+  },
+  "errors": {
+    "network": {
+      "title": "Couldn’t load offers",
+      "message": "Check your connection and try again."
+    },
+    "paymentFailed": {
+      "title": "Payment failed",
+      "message": "Try another method or try again."
+    }
+  }
+}
+

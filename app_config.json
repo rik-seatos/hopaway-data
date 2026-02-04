@@ -1,0 +1,27 @@
+{
+  "app": {
+    "name": "Hopaway",
+    "platform": "mobile-first",
+    "spacingGrid": 8,
+    "minTapTargetPx": 44,
+    "appBar": {
+      "left": "logo",
+      "right": "profileAvatar"
+    },
+    "notifications": {
+      "toastsEnabled": false,
+      "inlineBannersOnly": true
+    },
+    "accessibility": {
+      "wcag": "AA",
+      "labeledIcons": true
+    },
+    "modes": ["light", "dark"]
+  },
+  "defaults": {
+    "currency": "THB",
+    "locale": "en-TH",
+    "distanceUnit": "km"
+  }
+}
+

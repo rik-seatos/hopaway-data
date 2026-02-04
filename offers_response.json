@@ -1,0 +1,119 @@
+{
+  "screen": "OFFERS",
+  "tabs": ["TOURS", "TRANSFERS"],
+  "defaultTab": "TOURS",
+  "viewMode": {
+    "type": "SEGMENTED",
+    "options": ["LIST", "MAP"],
+    "selected": "LIST"
+  },
+  "filters": {
+    "search": "",
+    "timeWindow": "TODAY",
+    "dateRange": null,
+    "distanceKm": 10,
+    "priceRange": { "min": 0, "max": 3000 },
+    "ratingMin": 4.0,
+    "durationHours": { "min": 0, "max": 8 }
+  },
+  "activeChips": [
+    { "id": "chip_today", "label": "Today", "key": "timeWindow", "value": "TODAY" },
+    { "id": "chip_10km", "label": "≤ 10 km", "key": "distanceKm", "value": 10 },
+    { "id": "chip_4plus", "label": "4.0+ rating", "key": "ratingMin", "value": 4.0 }
+  ],
+  "emptyState": {
+    "title": "No last-minute offers",
+    "message": "Try expanding time window or distance."
+  },
+  "tours": [
+    {
+      "id": "tour_2001",
+      "type": "TOUR",
+      "title": "Bangkok Night Street Food Tour (Last-minute)",
+      "durationMinutes": 180,
+      "rating": { "value": 4.7, "count": 1280, "source": "web" },
+      "nextDeparture": "2026-02-04T19:30:00+07:00",
+      "distanceKm": 2.1,
+      "pricing": {
+        "currency": "THB",
+        "oldPrice": 1590,
+        "price": 1190,
+        "discountPercent": 25
+      },
+      "badges": ["INSTANT_CONFIRM", "LIMITED_SEATS"],
+      "media": {
+        "thumbUrl": "https://picsum.photos/seed/hopaway-tour1/640/400"
+      },
+      "actions": {
+        "secondary": { "label": "Details", "action": "OPEN_DETAILS", "targetId": "tour_2001" },
+        "primary": { "label": "Book", "action": "OPEN_BOOKING", "targetId": "tour_2001" }
+      }
+    },
+    {
+      "id": "tour_2002",
+      "type": "TOUR",
+      "title": "Ayutthaya Express Day Trip (Limited seats)",
+      "durationMinutes": 420,
+      "rating": { "value": 4.6, "count": 812, "source": "web" },
+      "nextDeparture": "2026-02-05T07:15:00+07:00",
+      "distanceKm": 6.4,
+      "pricing": {
+        "currency": "THB",
+        "oldPrice": 2490,
+        "price": 1990,
+        "discountPercent": 20
+      },
+      "badges": ["LIMITED_SEATS", "NEW"],
+      "media": {
+        "thumbUrl": "https://picsum.photos/seed/hopaway-tour2/640/400"
+      },
+      "actions": {
+        "secondary": { "label": "Details", "action": "OPEN_DETAILS", "targetId": "tour_2002" },
+        "primary": { "label": "Book", "action": "OPEN_BOOKING", "targetId": "tour_2002" }
+      }
+    }
+  ],
+  "transfers": [
+    {
+      "id": "tr_3001",
+      "type": "TRANSFER",
+      "routeTitle": "Bangkok \u2192 Pattaya",
+      "vehicle": { "type": "Sedan", "icon": "car_sedan" },
+      "estimatedDurationMinutes": 105,
+      "times": ["2026-02-04T16:00:00+07:00", "2026-02-04T18:30:00+07:00"],
+      "distanceKm": 147,
+      "pricing": {
+        "currency": "THB",
+        "oldPrice": 2300,
+        "price": 1790,
+        "discountPercent": 22
+      },
+      "badges": ["INSTANT_CONFIRM"],
+      "actions": {
+        "secondary": { "label": "Details", "action": "OPEN_DETAILS", "targetId": "tr_3001" },
+        "primary": { "label": "Book", "action": "OPEN_BOOKING", "targetId": "tr_3001" }
+      }
+    },
+    {
+      "id": "tr_3002",
+      "type": "TRANSFER",
+      "routeTitle": "Suvarnabhumi (BKK) \u2192 Sukhumvit",
+      "vehicle": { "type": "Van", "icon": "car_van" },
+      "estimatedDurationMinutes": 55,
+      "times": ["2026-02-04T14:10:00+07:00", "2026-02-04T15:30:00+07:00"],
+      "distanceKm": 31,
+      "pricing": {
+        "currency": "THB",
+        "oldPrice": 1200,
+        "price": 890,
+        "discountPercent": 26
+      },
+      "badges": ["LIMITED_SEATS"],
+      "actions": {
+        "secondary": { "label": "Details", "action": "OPEN_DETAILS", "targetId": "tr_3002" },
+        "primary": { "label": "Book", "action": "OPEN_BOOKING", "targetId": "tr_3002" }
+      }
+    }
+  ]
+}
+

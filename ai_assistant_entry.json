@@ -1,0 +1,53 @@
+{
+  "screen": "AI_ASSISTANT_ENTRY",
+  "title": "Find last-minute trips near you",
+  "conversation": {
+    "messages": [
+      {
+        "id": "m1",
+        "role": "assistant",
+        "text": "Tell me where you are (or use an address) and I’ll find last-minute Tours and Transfers with instant confirmation when available."
+      },
+      {
+        "id": "m2",
+        "role": "assistant",
+        "text": "Want to go today or this weekend?"
+      }
+    ]
+  },
+  "quickActions": [
+    {
+      "id": "qa_location",
+      "label": "Track my location",
+      "icon": "location",
+      "action": "REQUEST_LOCATION_PERMISSION",
+      "inlinePrivacyNote": "We only use your location to show nearby offers. You can switch to address any time."
+    },
+    {
+      "id": "qa_address",
+      "label": "Use a specific address",
+      "icon": "pin",
+      "action": "OPEN_ADDRESS_INPUT"
+    }
+  ],
+  "timeWindowChips": [
+    { "id": "tw_today", "label": "Today", "value": "TODAY", "selected": true },
+    { "id": "tw_weekend", "label": "This weekend", "value": "THIS_WEEKEND", "selected": false },
+    { "id": "tw_custom", "label": "Custom range", "value": "CUSTOM_RANGE", "selected": false }
+  ],
+  "cta": {
+    "primary": { "label": "Show offers", "action": "SHOW_OFFERS" }
+  },
+  "states": {
+    "locationDeniedBanner": {
+      "type": "warning",
+      "title": "Location access is off.",
+      "message": "Use an address instead."
+    },
+    "addressValidated": {
+      "type": "success",
+      "message": "Address selected from autocomplete."
+    }
+  }
+}
+

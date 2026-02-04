@@ -1,0 +1,18 @@
+{
+  "user": {
+    "id": "u_1001",
+    "name": "Demo Traveler",
+    "avatarUrl": "https://picsum.photos/seed/hopaway-avatar/128/128",
+    "preferredLanguage": "en",
+    "contact": {
+      "email": "demo.traveler@example.com",
+      "phone": "+66 89 000 0000",
+      "whatsapp": "+66 89 000 0000"
+    }
+  },
+  "privacy": {
+    "locationUsageCopy": "We only use your location to show nearby last-minute offers. You can always use an address instead.",
+    "dataRetentionDays": 7
+  }
+}
+

@@ -1,0 +1,47 @@
+{
+  "light": {
+    "colors": {
+      "bg": "#FFFFFF",
+      "surface": "#F7F8FA",
+      "textPrimary": "#101828",
+      "textSecondary": "#475467",
+      "border": "#EAECF0",
+      "primary": "#2563EB",
+      "success": "#16A34A",
+      "warning": "#F59E0B",
+      "danger": "#DC2626",
+      "badge": "#EEF2FF",
+      "badgeText": "#3730A3"
+    }
+  },
+  "dark": {
+    "colors": {
+      "bg": "#0B1220",
+      "surface": "#111A2E",
+      "textPrimary": "#F9FAFB",
+      "textSecondary": "#CBD5E1",
+      "border": "#24314B",
+      "primary": "#60A5FA",
+      "success": "#22C55E",
+      "warning": "#FBBF24",
+      "danger": "#F87171",
+      "badge": "#1F2A44",
+      "badgeText": "#C7D2FE"
+    }
+  },
+  "typography": {
+    "fontFamily": "System",
+    "scale": {
+      "title": 22,
+      "h2": 18,
+      "body": 16,
+      "caption": 13
+    }
+  },
+  "radius": {
+    "sm": 10,
+    "md": 14,
+    "lg": 20
+  }
+}
+

@@ -1,0 +1,47 @@
+{
+  "screen": "BOOKING",
+  "offerId": "tour_2001",
+  "productSummary": {
+    "title": "Bangkok Night Street Food Tour (Last-minute)",
+    "date": "2026-02-04",
+    "time": "19:30",
+    "timezone": "Asia/Bangkok"
+  },
+  "passengers": {
+    "adults": 2,
+    "children": 0
+  },
+  "passengerFields": [
+    { "key": "fullName", "label": "Full name", "value": "Demo Traveler" },
+    { "key": "email", "label": "Email", "value": "demo.traveler@example.com" },
+    { "key": "phone", "label": "Phone", "value": "+66 89 000 0000" }
+  ],
+  "pickup": {
+    "type": "TOUR_MEETING_POINT",
+    "meetingPoint": {
+      "label": "BTS Saphan Taksin Exit 2",
+      "geo": { "lat": 13.7187, "lng": 100.5146 },
+      "openInMapsAction": { "label": "Open in Maps", "action": "OPEN_MAPS" }
+    }
+  },
+  "priceSummary": {
+    "currency": "THB",
+    "lineItems": [
+      { "label": "Adults x2", "amount": 2380 },
+      { "label": "Discount", "amount": -400 }
+    ],
+    "total": 1980
+  },
+  "payment": {
+    "method": "CARD",
+    "availableMethods": ["CARD", "APPLE_PAY", "GOOGLE_PAY"]
+  },
+  "confirmationLabel": {
+    "type": "INSTANT",
+    "text": "Instant confirmation"
+  },
+  "cta": {
+    "primary": { "label": "Pay & Book", "action": "PAY_AND_BOOK" }
+  }
+}
+
