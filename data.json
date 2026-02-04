@@ -1,4 +1,27 @@
-[{
+
+[
+  {
     "id": 1,
-    "rating": 4.5
-}]
+    "time": "2026-02-04T09:15:00Z",
+    "type": "place",
+    "lat": 52.370216,
+    "lng": 4.895168,
+    "picture_url": "https://images.unsplash.com/photo-1524041255072-7da0525d4a78?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 2,
+    "time": "2026-02-04T12:30:00Z",
+    "type": "place",
+    "lat": 48.85837,
+    "lng": 2.294481,
+    "picture_url": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 3,
+    "time": "2026-02-04T18:45:00Z",
+    "type": "place",
+    "lat": 35.6762,
+    "lng": 139.6503,
+    "picture_url": "https://images.unsplash.com/photo-1549692520-acc6669e2f0c?auto=format&fit=crop&w=1200&q=80"
+  }
+]
